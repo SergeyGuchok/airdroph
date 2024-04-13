@@ -1,11 +1,28 @@
 {
   "name": "airdroph",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "dev": "nodemon --experimental-modules --no-warnings"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "openai": "^4.33.1",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "twitter-api-v2": "^1.16.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
 }
