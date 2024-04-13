@@ -7,6 +7,9 @@ const requiredWords = ['$BUBBLE', '$PAC', '$PARAM', '$COOKIE', '$ZERO'];
 const requireEngagement = 'I want you to engage users to like retweet and follow using text.';
 const dontRequireEngagement = 'I don"t want you to engage users to like retweet and follow using text.';
 
+let tweetCount = 0;
+let failsCount = 0;
+
 const generatePrompt = () => {
   const isTrue = Math.floor(Math.random() * 10) > 5;
 
@@ -33,9 +36,13 @@ async function main() {
     const { message } = completion.choices[0];
 
     tweet(message.content);
+    tweetCount += 1;
   } catch (e) {
+    failsCount += 1;
     console.log(e);
   }
+
+  console.log({ tweetCount, failsCount });
 }
 
 const cronTween = new CronJob('*/75 * * * *', async () => {
