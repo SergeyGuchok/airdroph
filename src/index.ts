@@ -38,7 +38,7 @@ async function main() {
   }
 }
 
-const cronTween = new CronJob('*/1 * * * *', async () => {
+const cronTween = new CronJob('*/75 * * * *', async () => {
   main();
 });
 
