@@ -1,6 +1,6 @@
 import { twitterClient } from '../../twitter/client.js';
 
-export const tweet = async (tweet) => {
+export const tweetToFeed = async (tweet: string) => {
   try {
     await twitterClient.v2.tweet(tweet);
   } catch (e) {
