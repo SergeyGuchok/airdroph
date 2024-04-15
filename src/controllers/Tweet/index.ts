@@ -8,7 +8,7 @@ type State = {
   generatedTweets: string[];
 };
 
-const requiredWords = ['$BUBBLE', '$PAC', '$PARAM', '$COOKIE', '$ZERO'];
+const requiredWords = ['$BUBBLE', '$PARAM', '$COOKIE', '$BEYOND'];
 
 const requireEngagement = 'Use more engagement';
 const dontRequireEngagement = 'Don"t engage people to interact';
@@ -44,7 +44,11 @@ export class TweetController {
     const end = 'Make it unique!';
     const emojis = isGreaterThanEight ? 'Use less emojis' : '';
 
-    return `${start} ${words}. ${engagement}${engagement ? '.' : ''} ${emojis}${emojis ? '.' : ''} ${end}`;
+    // basic return
+    // return `${start} ${words}. ${engagement}${engagement ? '.' : ''} ${emojis}${emojis ? '.' : ''} ${end}`;
+
+    // return engagement only
+    return `${start} ${words}. ${engage}. ${emojis}${emojis ? '.' : ''} ${end}`;
   }
 
   private async generateTweetFromModel() {
