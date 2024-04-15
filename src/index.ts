@@ -6,10 +6,19 @@ import { upload, createJob, getJobStatus } from './ai/model/index.js';
 
 const TweetControllerInstance = new TweetController();
 
-const cronTween = new CronJob('*/75 * * * *', async () => {
+const cronTweet = new CronJob('*/85 * * * *', async () => {
   await TweetControllerInstance.tweetGeneratedByModalTweet();
 });
 
-cronTween.start();
+const cronTweetTwo = new CronJob('*/135 * * * *', async () => {
+  await TweetControllerInstance.tweetGeneratedByModalTweet();
+});
+
+cronTweet.start();
+cronTweetTwo.start();
 
 // createJob();
+// upload();
+// getJobStatus();
+
+// TweetControllerInstance.tweetGeneratedByModalTweet();

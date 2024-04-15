@@ -5,12 +5,12 @@ import { getDirname } from '../../utils/getDirname.js';
 
 import { openai } from '../openai/index.js';
 
-const tweetModelFileId = 'file-ZRTZ3Db42z2FdG7FYvOLDJ5Z';
-const jobId = 'ftjob-AquiYnLRxA4IXCgDgTQiMMPA';
+const tweetModelFileId = 'file-3Wpxze8v8MFAYYh3DvJ38qfy';
+const jobId = 'ftjob-fB7x8Gynuu1SrQjAmRlufwSf';
 
 export const upload = async () => {
   const dirname = getDirname(import.meta.url);
-  const model = fs.createReadStream(path.join(dirname, 'traningModelForTweets.jsonl'));
+  const model = fs.createReadStream(path.join(dirname, 'training_conversations.jsonl'));
   const file = await openai.files.create({ file: model, purpose: 'fine-tune' });
   console.log(file);
   return file;

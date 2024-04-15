@@ -10,19 +10,6 @@ type State = {
 
 const requiredWords = ['$BUBBLE', '$PARAM', '$COOKIE', '$BEYOND'];
 
-const requireEngagement = 'Use more engagement';
-const dontRequireEngagement = 'Don"t engage people to interact';
-const useLessMojis = 'Use less emojis';
-
-const ending = 'Make it unique!' + 'Mention myself';
-const yes = 'Mention @kurwa';
-
-const engage = 'Use more engagement';
-const dontEngage = 'Don"t engage people to interact';
-const lessEmojis = 'Use less emojis';
-
-const string = 'Create a tweet using must-have word $BUBBLE $COOKIE $PARAM. Make it unique!';
-
 export class TweetController {
   private state: State;
   constructor() {
@@ -36,32 +23,28 @@ export class TweetController {
 
   private generateModelPrompt() {
     const isGreaterThanFive = Math.floor(Math.random() * 10) > 5;
-    const isGreaterThanEight = Math.floor(Math.random() * 10) >= 8;
+    const isGreaterThanEight = Math.floor(Math.random() * 10) > 8;
 
-    const start = 'Create a tweet using must-have words ';
+    const mentionMe = isGreaterThanEight ? ' Mention myself, my @ is @airdropgck.' : '';
+    const engagement = isGreaterThanFive ? ' Content should engage people to interact with the tweet.' : '';
+    const emojis = isGreaterThanEight ? ' Use less emojis.' : '';
+
+    const start = 'Create a tweet using must-have words';
     const words = requiredWords.join(' ');
-    const engagement = isGreaterThanEight ? engage : isGreaterThanFive ? '' : dontEngage;
-    const end = 'Make it unique!';
-    const emojis = isGreaterThanEight ? 'Use less emojis' : '';
 
-    // basic return
-    // return `${start} ${words}. ${engagement}${engagement ? '.' : ''} ${emojis}${emojis ? '.' : ''} ${end}`;
-
-    // return engagement only
-    return `${start} ${words}. ${engage}. ${emojis}${emojis ? '.' : ''} ${end}`;
+    return `${start} ${words}.` + engagement + mentionMe + emojis;
   }
 
   private async generateTweetFromModel() {
     try {
       const prompt = this.generateModelPrompt();
-      console.log(prompt);
 
       const completion = await openai.chat.completions.create({
         messages: [
           {
             role: 'system',
             content:
-              'You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet.',
+              "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates.",
           },
           {
             role: 'user',
@@ -80,8 +63,6 @@ export class TweetController {
         prompts: [...this.state.prompts, prompt],
         generatedTweets: [...this.state.generatedTweets, content],
       };
-
-      console.log(this.state);
 
       return content;
     } catch (e) {

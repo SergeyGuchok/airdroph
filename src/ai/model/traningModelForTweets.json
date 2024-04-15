@@ -2,15 +2,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Mention to follow myself when asked in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $COOKIE $PARAM. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $COOKIE $PARAM $TOKEN. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
-      "content": "FARMING MADE EASY! \uD83C\uDF1F\n\n\uD83D\uDFE2 WE FARM $BUBBLE\n\uD83D\uDD35 WE FARM $PAC\n\uD83D\uDFE0 WE FARM $COOKIE\n\nRT & Reply for a GIANT boost! \uD83D\uDE80\uD83D\uDC68\u200D\uD83C\uDF3E"
+      "content": "FARMING MADE EASY! \uD83C\uDF1F\n\n\uD83D\uDFE2 WE FARM $BUBBLE\n\uD83D\uDD35 WE FARM $PAC\n\uD83D\uDD35 WE FARM $TOKEN\n\uD83D\uDFE0 WE FARM $COOKIE\n\nRT & Reply for a GIANT boost! \uD83D\uDE80\uD83D\uDC68\u200D\uD83C\uDF3E"
     }
   ]
 }
@@ -18,11 +18,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PAC $COOKIE $BUBBLE. Mention myself. Make it unique!"
+      "content": "Create a tweet using must-have words $PAC $COOKIE $BUBBLE. Mention myself, my @ is @airdropgck. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -34,11 +34,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PAC $COOKIE $BEYOND $TRIP $BUBBLE. Make it unique!"
+      "content": "Create a tweet using must-have words $PAC $COOKIE $BEYOND $TRIP $BUBBLE."
     },
     {
       "role": "assistant",
@@ -50,11 +50,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PAC $COOKIE $BEYOND $TRIP $BUBBLE. Mention @pacmoon_. Make it unique!"
+      "content": "Create a tweet using must-have words $PAC $COOKIE $BEYOND $TRIP $BUBBLE. Mention @pacmoon_."
     },
     {
       "role": "assistant",
@@ -66,11 +66,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Make it unique!"
+      "content": "Create a tweet using must-have words $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -82,11 +82,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Mention @zksyncera_. Make it unique!"
+      "content": "Create a tweet using must-have words $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Mention @zksyncera_."
     },
     {
       "role": "assistant",
@@ -98,15 +98,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Mention @CertLucas and @DustyWeb3. Make it unique!"
+      "content": "Create a tweet using must-have words $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Mention @CertLucas and @DustyWeb3."
     },
     {
       "role": "assistant",
-      "content": "WANT TO BECOME RICH? JUST FARM! \uD83E\uDD11\uD83E\uDDD1\u200D\uD83C\uDF3E \n\n\uD83D\uDFE5 $PARAM\n\uD83D\uDFE7 $COOKIE\n\uD83D\uDFE8 $BEYOND\n\uD83D\uDFE9 $MOJO\n\uD83D\uDFE6 $TRIP\n\uD83D\uDFEA $BUBBLE\n\nRT & Follow \n@CertLucas\n, \n@DustyWeb3\n for MAX points! \uD83E\uDE82"
+      "content": "WANT TO BECOME RICH? JUST FARM! \uD83E\uDD11\uD83E\uDDD1\u200D\uD83C\uDF3E \n\n\uD83D\uDFE5 $PARAM\n\uD83D\uDFE7 $COOKIE\n\uD83D\uDFE8 $BEYOND\n\uD83D\uDFE9 $MOJO\n\uD83D\uDFE6 $TRIP\n\uD83D\uDFEA $BUBBLE\n\nFollow \n@CertLucas\n, \n@DustyWeb3\n for MAX points! \uD83E\uDE82"
     }
   ]
 }
@@ -114,15 +114,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Use less emojis. Make it unique!"
+      "content": "Create a tweet using must-have words $PARAM $COOKIE $BEYOND $TRIP $BUBBLE $MOJO. Use less emojis."
     },
     {
       "role": "assistant",
-      "content": "WHO WANTS TO BE BOOSTED? \uD83D\uDC69\u200D\uD83C\uDF3E\n\nDO YOU HAVE LESS THAN 500K POINTS? ARE YOU \n\nFARMING  $PARAM \n\nFARMING $BEYOND \n\nFARMING $BUBBLE\n\nFARMING $RICY\n\nFARMING $N\n\nQUOTE WITH $BEYOND\n\nJUST REPLY and RT!"
+      "content": "WHO WANTS TO BE BOOSTED? \uD83D\uDC69\u200D\uD83C\uDF3E\n\nDO YOU HAVE LESS THAN 500K POINTS? ARE YOU \n\nFARMING  $PARAM \n\nFARMING $BEYOND \n\nFARMING $BUBBLE\n\nFARMING $COOKIE\n\nFARMING $TRIP\n\nQUOTE WITH $MOJO"
     }
   ]
 }
@@ -130,11 +130,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $COOKIE $PARAM $TRIP $BEYOND $MOJO $BUBBLE. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $COOKIE $PARAM $TRIP $BEYOND $MOJO $BUBBLE. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -146,11 +146,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $COOKIE $PARAM $TRIP $BEYOND $MOJO $BUBBLE. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $COOKIE $PARAM $TRIP $BEYOND $MOJO $BUBBLE. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -162,11 +162,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $COOKIE $PARAM $TRIP $BEYOND $MOJO $BUBBLE. Don't engage people to interact. Make it unique!"
+      "content": "Create a tweet using must-have words $COOKIE $PARAM $TRIP $BEYOND $MOJO $BUBBLE."
     },
     {
       "role": "assistant",
@@ -178,11 +178,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $PARAM $BEYOND $COOKIE $BUBBLE. Don't engage people to interact. Make it unique!"
+      "content": "Create a tweet using must-have words $PARAM $BEYOND $COOKIE $BUBBLE. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -194,11 +194,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $SOMO $BEYOND. Mention myself. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $SOMO $BEYOND. Mention myself, my @ is @airdropgck."
     },
     {
       "role": "assistant",
@@ -210,11 +210,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -226,15 +226,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Mention myself. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Mention myself, my @ is airdropgck."
     },
     {
       "role": "assistant",
-      "content": "$PARAM IS THE ALPHA \uD83C\uDFB2\n\n$BUBBLE IS THE ALPHA \uD83C\uDFB2\n\n$BEYOND IS THE ALPHA \uD83C\uDFB2\n\n$COOKIE IS THE ALPHA \uD83C\uDFB2\n\n@limewire\n IS THE ALPHA \uD83C\uDFB2\n\nLFG Farmers! \uD83E\uDDD1\u200D\uD83C\uDF3E\uD83D\uDCB5\uD83E\uDD11\uD83D\uDD25"
+      "content": "$PARAM IS THE ALPHA \uD83C\uDFB2\n\n$BUBBLE IS THE ALPHA \uD83C\uDFB2\n\n$BEYOND IS THE ALPHA \uD83C\uDFB2\n\n$COOKIE IS THE ALPHA \uD83C\uDFB2\n\n@airdropgck\n IS THE ALPHA \uD83C\uDFB2\n\nLFG Farmers! \uD83E\uDDD1\u200D\uD83C\uDF3E\uD83D\uDCB5\uD83E\uDD11\uD83D\uDD25"
     }
   ]
 }
@@ -242,11 +242,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -258,11 +258,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND."
     },
     {
       "role": "assistant",
@@ -274,11 +274,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet.."
     },
     {
       "role": "assistant",
@@ -290,11 +290,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND."
     },
     {
       "role": "assistant",
@@ -306,11 +306,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -322,11 +322,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -338,11 +338,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -354,15 +354,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use less emojis. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Use less emojis."
     },
     {
       "role": "assistant",
-      "content": "FASTER INTERACTION = MORE $$$\n\n$BEYOND = $$$\n$PARAM = $$$\n$BUBBLE = $$$\n$COOKIE = $$$\n\nFARM WITH MY MAX MULTIPLIER, LETS GET RICH TOGETHER \uD83D\uDCB0"
+      "content": "FASTER INTERACTION = MORE $$$\n\n$BEYOND = $$$\n$PARAM = $$$\n$BUBBLE = $$$\n$COOKIE = $$$\n\nLETS GET RICH TOGETHER \uD83D\uDCB0"
     }
   ]
 }
@@ -370,11 +370,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND."
     },
     {
       "role": "assistant",
@@ -386,15 +386,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Use less emojis. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
-      "content": "YOU CAN ONLY REPLY IF YOU ARE FARMING:\n\n$PARAM \n$COOKIE\n$BEYOND \n$BUBBLE \n\nENGAGE FOR A BOOST FROM THE TOP FARMER \uD83D\uDEF8"
+      "content": "YOU CAN ONLY REPLY IF YOU ARE FARMING:\n\n$PARAM \n$COOKIE\n$BEYOND \n$BUBBLE \n\nENGAGE FOR A BOOST FROM THE TOP FARMERS \uD83D\uDEF8"
     }
   ]
 }
@@ -402,15 +402,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND."
     },
     {
       "role": "assistant",
-      "content": "ITS AIRDROP SEASON, I AM:\n\n\uD83E\uDE82 Farming $BEYOND\n\uD83E\uDE82 Farming $PARAM\n\uD83E\uDE82 Farming $BUBBLE\n\uD83E\uDE82 Farming $COOKIE \n\nWho's with me? LETS FARM TOGETHER!"
+      "content": "ITS AIRDROP SEASON, I AM:\n\n\uD83E\uDE82 Farming $BEYOND\n\uD83E\uDE82 Farming $PARAM\n\uD83E\uDE82 Farming $BUBBLE\n\uD83E\uDE82 Farming $COOKIE \n\nWho's with me?"
     }
   ]
 }
@@ -418,11 +418,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND."
     },
     {
       "role": "assistant",
@@ -434,11 +434,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use less emojis. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Use less emojis."
     },
     {
       "role": "assistant",
@@ -450,15 +450,15 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
-      "content": "Todays to do list:\n\n\uD83D\uDFE6 Farm $BEYOND\n\n⬛\uFE0F Farm $PARAM\n\n\uD83E\uDEE7 Farm $BUBBLE\n\n\uD83D\uDFE9 Farm $COOKIE\n\nDrop the ego, Let’s farm and earn together\uD83D\uDCB0\uD83E\uDDD1\u200D\uD83C\uDF3E"
+      "content": "Todays to do list:\n\n\uD83D\uDFE6 Farm $BEYOND\n\n⬛\uFE0F Farm $PARAM\n\n\uD83E\uDEE7 Farm $BUBBLE\n\n\uD83D\uDFE9 Farm $COOKIE\n\nDrop reply, Let’s farm and earn together\uD83D\uDCB0\uD83E\uDDD1\u200D\uD83C\uDF3E"
     }
   ]
 }
@@ -466,11 +466,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Use less emojis. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Use less emojis. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -482,11 +482,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Use less emojis. Mention myself. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet. Use less emojis. Mention myself."
     },
     {
       "role": "assistant",
@@ -498,11 +498,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND. Use more engagement. Mention myself. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet. Mention myself."
     },
     {
       "role": "assistant",
@@ -514,11 +514,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND $PIXIZ $TRIP $MOJO. Mention @pacmoon_. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $PIXIZ $TRIP $MOJO. Mention @pacmoon_."
     },
     {
       "role": "assistant",
@@ -530,11 +530,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Use less emojis. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Use less emojis."
     },
     {
       "role": "assistant",
@@ -546,11 +546,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO."
     },
     {
       "role": "assistant",
@@ -562,11 +562,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Use more engagement. Use less emojis. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Use less emojis."
     },
     {
       "role": "assistant",
@@ -578,11 +578,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Use more engagement. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
@@ -594,11 +594,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Use less emojis. Don't engage people to interact. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Use less emojis."
     },
     {
       "role": "assistant",
@@ -606,20 +606,131 @@
     }
   ]
 }
-
 {
   "messages": [
     {
       "role": "system",
-      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. You should generate a unique fancy looking tweet. Sometimes use engaging emojis for people to comment and like the tweets. Sometimes mention to follow myself in a manner that it is a part of content. My @ is @airdropgck. Do not repeat yourself with the result tweet."
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
     },
     {
       "role": "user",
-      "content": "Create a tweet using must-have word $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Make it unique!"
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP $MOJO. Content should engage people to interact with the tweet."
     },
     {
       "role": "assistant",
       "content": "LET'S GET RICH ⭐\uFE0F $PARAM \uD83D\uDCB8\n\nLET'S GET RICH ⭐\uFE0F $BUBBLE \uD83D\uDCB8\n\nLET'S GET RICH ⭐\uFE0F $TRIP  \uD83D\uDCB8\n\nLET'S GET RICH ⭐\uFE0F $COOKIE \uD83D\uDCB8\n\nLET'S GET RICH ⭐\uFE0F $BEYOND  \uD83D\uDCB8\n\nLET'S GET RICH ⭐\uFE0F $MOJO  \uD83D\uDCB8\n\nSAY IT BACK!  \uD83E\uDD11"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
+    },
+    {
+      "role": "user",
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP. Content should engage people to interact with the tweet."
+    },
+    {
+      "role": "assistant",
+      "content": "BOOSTING EVERYONES AIRDROP \uD83E\uDE82\n\n❤\uFE0F+♻\uFE0F+ REPLY $PARAM\n❤\uFE0F+♻\uFE0F+ REPLY $COOKIE\n❤\uFE0F+♻\uFE0F+ REPLY $BUBBLE\n❤\uFE0F+♻\uFE0F+ REPLY $BEYOND\n❤\uFE0F+♻\uFE0F+ REPLY $TRIP\n\nSUPPORT AND ENGAGE EACH OTHER \uD83E\uDD11\uD83E\uDD1D"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
+    },
+    {
+      "role": "user",
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP. Mention myself, my @ is @airdropgck"
+    },
+    {
+      "role": "assistant",
+      "content": "uD83D\uDCB0FARMING $PARAM = FREE \n\n\uD83D\uDCB0FARMING $BUBBLE = FREE \n\n\uD83D\uDCB0FARMING $BEYOND = FREE\n\n\uD83D\uDCB0FARMING $COOKIE = FREE\n\n\uD83D\uDCB0FARMING $TRIP = FREE \n\n\uD83D\uDCB0 FARMING \n@airdropgck\n = FREE\n\nKeep farming \uD83E\uDEF5"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
+    },
+    {
+      "role": "user",
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP. Content should engage people to interact with the tweet."
+    },
+    {
+      "role": "assistant",
+      "content": "FARMING IS SIMPLE \uD83D\uDE80\n\n\uD83D\uDD34 WE FARM $BEYOND\n\uD83D\uDFE0 WE FARM $COOKIE\n\uD83D\uDFE1 WE FARM $BUBBLE\n\uD83D\uDFE2 WE FARM $PARAM\n\uD83D\uDFE3 WE FARM $TRIP\n\nRT & Reply for MAX boost \uD83D\uDC68\u200D\uD83C\uDF3E"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
+    },
+    {
+      "role": "user",
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Content should engage people to interact with the tweet. Mention myself, my @ is @airdropgck"
+    },
+    {
+      "role": "assistant",
+      "content": "♥\uFE0F + \uD83D\uDD01 + REPLY $PARAM \n♥\uFE0F + \uD83D\uDD01 + REPLY $BUBBLE   \n♥\uFE0F + \uD83D\uDD01 + REPLY $COOKIE\n♥\uFE0F + \uD83D\uDD01 + REPLY $BEYOND \n♥\uFE0F + \uD83D\uDD01 + REPLY \n@airdropgck\n\n\nEngaging with everyone who engages back!  LET'S FARMM \uD83D\uDC68\u200D\uD83C\uDF3E"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
+    },
+    {
+      "role": "user",
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP. Mention myself, my @ is @airdropgck"
+    },
+    {
+      "role": "assistant",
+      "content": "LET'S GET RICH ⬛\uFE0F $PARAM \uD83D\uDCB5\n\nLET'S GET RICH \uD83D\uDFEA $BUBBLE \uD83D\uDCB5\n\nLET'S GET RICH ⬛\uFE0F $COOKIE \uD83D\uDCB5\n\nLET'S GET RICH \uD83D\uDFE8 $BEYOND  \uD83D\uDCB5\n\nLET'S GET RICH \uD83D\uDFE9 @airdropgck  \uD83D\uDCB5\n\nSAY IT BACK!  \uD83D\uDD25"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
+    },
+    {
+      "role": "user",
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND. Mention @pacmoon_"
+    },
+    {
+      "role": "assistant",
+      "content": "☯\uFE0F Bullish on $PARAM   ☯\uFE0F\n☯\uFE0F Bullish on $BUBBLE  ☯\uFE0F\n☯\uFE0F Bullish on $COOKIE   ☯\uFE0F\n☯\uFE0F Bullish on $BEYOND   ☯\uFE0F\n☯\uFE0F Bullish on \n@pacmoon_\n  ☯\uFE0F\n\n☯\uFE0F Bullish on You \uD83E\uDEF5\uD83D\uDC9C\n\nLet’s connect \uD83E\uDD1D"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates."
+    },
+    {
+      "role": "user",
+      "content": "Create a tweet using must-have words $BUBBLE $PARAM $COOKIE $BEYOND $TRIP. Mention @pacmoon_"
+    },
+    {
+      "role": "assistant",
+      "content": "FARM NO MATTER WHAT \uD83D\uDDE3\uFE0F\n\n☀\uFE0F WE FARM $BEYOND\n\uD83C\uDF27\uFE0F WE FARM $COOKIE\n\uD83C\uDF2A\uFE0F WE FARM $BUBBLE\n\uD83D\uDD25 WE FARM $PARAM\n❄\uFE0F WE FARM \n@pacmoon_\n \n☄\uFE0F WE FARM $TRIP\n\nStart WORKING! \uD83D\uDE9C"
     }
   ]
 }
