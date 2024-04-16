@@ -1,5 +1,8 @@
 import { model, openai } from '../../ai/openai/index.js';
-import { tweetToFeed } from '../../services/TweetService/index.js';
+import { tweetToFeed, replyToTweet, likeTweet } from '../../services/TweetService/index.js';
+import { getMyUserId } from '../../services/ScalpService/index.js';
+import { generateCompletion } from '../../services/AiService/index.js';
+import { REQUIRED_WORDS } from '../../constants/index.js';
 
 type State = {
   fails: number;
@@ -8,11 +11,12 @@ type State = {
   generatedTweets: string[];
 };
 
-const requiredWords = ['$BUBBLE', '$PARAM', '$COOKIE', '$BEYOND'];
-
 export class TweetController {
   private state: State;
+  myId: string;
+
   constructor() {
+    this.myId = '954084679744925702';
     this.state = {
       fails: 0,
       successes: 0,
@@ -30,7 +34,7 @@ export class TweetController {
     const emojis = isGreaterThanEight ? ' Use less emojis.' : '';
 
     const start = 'Create a tweet using must-have words';
-    const words = requiredWords.join(' ');
+    const words = REQUIRED_WORDS.join(' ');
 
     return `${start} ${words}.` + engagement + mentionMe + emojis;
   }
@@ -39,20 +43,7 @@ export class TweetController {
     try {
       const prompt = this.generateModelPrompt();
 
-      const completion = await openai.chat.completions.create({
-        messages: [
-          {
-            role: 'system',
-            content:
-              "You are active Twitter user that uses platform for crypto airdrops social farming. You are given a set of must-have words to be included. These words start with '$' (dollar sign). You should generate a unique fancy looking tweet. Tweets should look alike but with minor differences. Do not mention any dates.",
-          },
-          {
-            role: 'user',
-            content: prompt,
-          },
-        ],
-        model,
-      });
+      const completion = await generateCompletion(prompt);
 
       const { message } = completion.choices[0];
       const { content } = message;
@@ -67,6 +58,43 @@ export class TweetController {
       return content;
     } catch (e) {
       this.state.fails += 1;
+      console.log(e);
+    }
+  }
+
+  async replyTweets(tweets: { id: string }[]) {
+    try {
+      const ids = tweets.map((t) => t.id);
+      const prompt = this.generateModelPrompt();
+      const completion = await generateCompletion(prompt);
+
+      const { message } = completion.choices[0];
+      const { content } = message;
+
+      ids.forEach((id: string) => {
+        replyToTweet(content, id);
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  async likeTweets(tweets: { id: string; edit_history_tweet_ids: string[] }[] = []) {
+    try {
+      const ids = tweets
+        .filter((t) => t.edit_history_tweet_ids.length < 2)
+        .map((t) => t.id)
+        .slice(0, 5);
+
+      // if (!this.myId) {
+      //   const { data } = await getMyUserId();
+      //   this.myId = data.id;
+      // }
+
+      ids.forEach((id: string) => {
+        likeTweet(this.myId, id);
+      });
+    } catch (e) {
       console.log(e);
     }
   }
