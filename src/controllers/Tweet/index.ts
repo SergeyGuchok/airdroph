@@ -65,15 +65,16 @@ export class TweetController {
   async replyTweets(tweets: { id: string }[]) {
     try {
       const ids = tweets.map((t) => t.id);
-      const prompt = this.generateModelPrompt();
-      const completion = await generateCompletion(prompt);
 
-      const { message } = completion.choices[0];
-      const { content } = message;
+      for await (const id of ids) {
+        const prompt = this.generateModelPrompt();
+        const completion = await generateCompletion(prompt);
 
-      ids.forEach((id: string) => {
+        const { message } = completion.choices[0];
+        const { content } = message;
+
         replyToTweet(content, id);
-      });
+      }
     } catch (e) {
       console.log(e);
     }
@@ -101,7 +102,10 @@ export class TweetController {
 
   async tweetGeneratedByModalTweet() {
     const tweet = await this.generateTweetFromModel();
-    await tweetToFeed(tweet);
+    const { data } = await tweetToFeed(tweet);
+    const { id } = data;
+
+    this.likeTweets([{ id, edit_history_tweet_ids: [] }]);
   }
 
   getCurrentState() {
