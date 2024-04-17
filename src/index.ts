@@ -13,7 +13,7 @@ const cronTweet = new CronJob('*/85 * * * *', async () => {
 });
 
 const scalpReplyAndLike = new CronJob('*/60 * * * *', async () => {
-  const string = `"${REQUIRED_WORDS.join(' ')}" is:verified -is:reply -is:retweet`;
+  const string = `(${REQUIRED_WORDS.map((e) => `"${e}"`).join(' OR ')}) is:verified -is:reply -is:retweet`;
 
   const tweets = await ScalpControllerInstance.scalpLastTenTweetsByString(string);
   await TweetControllerInstance.replyTweets(tweets);
