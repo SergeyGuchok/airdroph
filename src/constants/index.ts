@@ -1,1 +1,1 @@
-export const REQUIRED_WORDS = ['$BUBBLE, '$DROIDS', '$BEYOND', '$RICE', '$SKR'];
+export const REQUIRED_WORDS = ['$BUBBLE', '$DROIDS', '$BEYOND', '$RICE', '$SKR'];
