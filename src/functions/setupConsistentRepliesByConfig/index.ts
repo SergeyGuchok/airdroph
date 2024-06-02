@@ -5,6 +5,7 @@ const state = {
   controllers: [],
   leftControllers: [],
   currentControllers: [],
+  counter: 0,
 }
 
 const initialTwitterUsers = [
@@ -53,6 +54,9 @@ const change = () => {
 
   state.currentControllers = state.leftControllers.slice(0, 5)
   state.leftControllers = state.leftControllers.slice(5)
+  state.counter = state.counter + 1
+
+  console.log(state.counter)
 }
 
 const accountCronJob = new CronJob('*/30 * * * *', async () => {

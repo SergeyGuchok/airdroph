@@ -1,3 +1,7 @@
 import { initialize } from './functions/setupConsistentRepliesByConfig/index.js'
 
-initialize()
+try {
+  initialize()
+} catch (e) {
+  console.error(e)
+}
