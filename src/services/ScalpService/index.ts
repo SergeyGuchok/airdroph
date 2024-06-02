@@ -8,7 +8,9 @@ export const scalpUserByUsername = async (username: string) => {
 };
 
 export const scalpUserTimelineByUserId = async (userId: string) => {
-  return await twitterClient.v2.userTimeline(userId, { exclude: 'replies' });
+  const { data } = await twitterClient.v2.userTimeline(userId, { exclude: ['replies', 'retweets'], max_results: 10 });
+
+  return data
 };
 
 export const scalpTweets = async (string: string, options: Partial<Tweetv2SearchParams>) => {

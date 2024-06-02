@@ -1,14 +1,10 @@
-import { model, openai } from '../../ai/openai/index.js';
 import { tweetToFeed, replyToTweet, likeTweet } from '../../services/TweetService/index.js';
-import { getMyUserId } from '../../services/ScalpService/index.js';
 import { generateCompletion } from '../../services/AiService/index.js';
 import { REQUIRED_WORDS } from '../../constants/index.js';
 
 type State = {
   fails: number;
   successes: number;
-  prompts: string[];
-  generatedTweets: string[];
 };
 
 export class TweetController {
@@ -20,8 +16,6 @@ export class TweetController {
     this.state = {
       fails: 0,
       successes: 0,
-      prompts: [],
-      generatedTweets: [],
     };
   }
 
@@ -51,8 +45,6 @@ export class TweetController {
       this.state = {
         ...this.state,
         successes: this.state.successes + 1,
-        prompts: [...this.state.prompts, prompt],
-        generatedTweets: [...this.state.generatedTweets, content],
       };
 
       return content;
