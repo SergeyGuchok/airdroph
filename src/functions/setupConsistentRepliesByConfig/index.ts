@@ -77,10 +77,6 @@ const accountCronJob = new CronJob('*/30 * * * *', async () => {
 export const initialize = async () => {
   const initialControllers = initialTwitterUsers.map(username => new Account({ username }));
 
-  for (const controller of initialControllers) {
-    await controller.initiate()
-  }
-
   state.controllers = initialControllers
   state.leftControllers = initialControllers.slice(5)
   state.currentControllers = initialControllers.slice(0,5)
