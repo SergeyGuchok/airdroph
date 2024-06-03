@@ -25,7 +25,6 @@ const initialTwitterUsers = [
   'iliketabz',
   'chilearmy123',
   'degenty_dev',
-  '7316',
   'punk9059',
   'alexandre_nft7',
   'zoraweb3',
@@ -44,16 +43,51 @@ const initialTwitterUsers = [
   'osf_rekt'
 ]
 
+const twitterIds = [
+  '248626548',
+  '1722033485165072385',
+  '810137474705952769',
+  '906234475604037637',
+  '1270542430513909760',
+  '1456296325360717825',
+  '407335633',
+  '3063147623',
+  '184729497',
+  '1332105346253512708',
+  '1012801888151097345',
+  '1660297198985179138',
+  '1456142714756468738',
+  '1501186030208229376',
+  '1449164448321605632',
+  '422974315',
+  '1383094132487421970',
+  '1366488915511812100',
+  '948780889051365376',
+  '43523452',
+  '1717249184',
+  '1368716552334315522',
+  '24958437',
+  '131551925',
+  '1000298374451552256',
+  '1355075567054417920',
+  '1530107446294872065',
+  '1356896977796136960',
+  '1443596973970444299',
+  '1366934666201202689',
+  '1422615292648300545',
+  '1510601004823334922',
+]
+
 const change = () => {
   if (state.leftControllers.length <= 5) {
-    state.currentControllers = state.leftControllers
-    state.leftControllers = state.controllers
+    state.currentControllers = [...state.leftControllers]
+    state.leftControllers = [...state.controllers]
 
     return
   }
 
-  state.currentControllers = state.leftControllers.slice(0, 5)
-  state.leftControllers = state.leftControllers.slice(5)
+  state.currentControllers = [...state.leftControllers.slice(0, 5)]
+  state.leftControllers = [...state.leftControllers.slice(5)]
   state.counter = state.counter + 1
 
   console.log(state.counter)
@@ -75,11 +109,11 @@ const accountCronJob = new CronJob('*/30 * * * *', async () => {
 })
 
 export const initialize = async () => {
-  const initialControllers = initialTwitterUsers.map(username => new Account({ username }));
+  const initialControllers = twitterIds.map(username => new Account({ username }));
 
   state.controllers = initialControllers
-  state.leftControllers = initialControllers.slice(5)
-  state.currentControllers = initialControllers.slice(0,5)
+  state.leftControllers = [...initialControllers.slice(5)]
+  state.currentControllers = [...initialControllers.slice(0,5)]
 
   accountCronJob.start()
 }
