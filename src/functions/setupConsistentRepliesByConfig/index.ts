@@ -9,73 +9,42 @@ const state = {
 }
 
 const initialTwitterUsers = [
-  'mooncat2878',
-  'themistergoat',
-  'gojo0x',
-  'theog_general',
-  'wardaddycapital',
-  'cryptokaleo',
-  'k2_nft',
-  'taloktan',
-  'berndawgler',
-  'jenndefer',
-  'btclover23',
-  'redpandaluu',
-  'jaylow999',
-  'iliketabz',
-  'chilearmy123',
-  'degenty_dev',
-  'punk9059',
-  'alexandre_nft7',
-  'zoraweb3',
-  'rektoffspring12',
-  'jaysoncrypto',
-  'fabxgow',
-  'dan559355',
-  'pelham_nft',
-  'adamagb',
-  'nftprince',
-  'iamashchild',
-  'daviswals1',
-  'cryptoleon_eth',
-  'sasha_nft',
-  'rizethereum',
-  'osf_rekt'
-]
-
-const twitterIds = [
-  '1012801888151097345',
-  '1660297198985179138',
-  '1456142714756468738',
-  '1501186030208229376',
-  '1449164448321605632',
-  '422974315',
-  '1383094132487421970',
-  '1366488915511812100',
-  '948780889051365376',
-  '43523452',
-  '1717249184',
-  '1368716552334315522',
-  '24958437',
-  '131551925',
-  '1000298374451552256',
-  '1355075567054417920',
-  '1530107446294872065',
-  '1356896977796136960',
-  '1443596973970444299',
-  '1366934666201202689',
-  '1422615292648300545',
-  '1510601004823334922',
-  '248626548',
-  '1722033485165072385',
-  '810137474705952769',
-  '906234475604037637',
-  '1270542430513909760',
-  '1456296325360717825',
-  '407335633',
-  '3063147623',
-  '184729497',
-  '1332105346253512708',
+  '1380820317375897603',
+  '17206497',
+  '864011281',
+  '1611265196059774978',
+  '773148910768517120',
+  '1964529234',
+  '931831469634240513',
+  'dwyer1987',
+  '81338966',
+  '2839418319',
+  '1370479673818427403',
+  '1745079132755554304',
+  '1044836753486622720',
+  '934715304491606016',
+  '1367552114642321410',
+  '1358126888506388480',
+  '1446315150340812804',
+  '52993689',
+  '1329637544498225154',
+  '979846754714705920',
+  '1925447520',
+  '1461816051507683331',
+  '1447850855332335617',
+  '1118966425',
+  '3173445967',
+  '1441774351',
+  '1130642299283619840',
+  '1389606365962792964',
+  '2583862561',
+  '1220695729448083456',
+  '1382464645160706053',
+  '1372618667830165508',
+  '1384835654799040513',
+  '631770998',
+  '1712198834628030464',
+  '979041547697074176',
 ]
 
 const change = () => {
@@ -93,7 +62,7 @@ const change = () => {
   console.log(state.counter)
 }
 
-const accountCronJob = new CronJob('*/30 * * * *', async () => {
+const accountCronJob = new CronJob('*/1 * * * *', async () => {
   for (const controller of state.currentControllers) {
     const { isInitialized } = controller.getState()
 
@@ -109,7 +78,7 @@ const accountCronJob = new CronJob('*/30 * * * *', async () => {
 })
 
 export const initialize = async () => {
-  const initialControllers = twitterIds.map(username => new Account({ username }));
+  const initialControllers = initialTwitterUsers.map(username => new Account({ username }));
 
   state.controllers = initialControllers
   state.leftControllers = [...initialControllers.slice(5)]

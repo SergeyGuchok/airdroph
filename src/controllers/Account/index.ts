@@ -4,14 +4,14 @@ import { replyToTweet, likeTweet } from '../../services/TweetService/index.js';
 const links = ['https://x.com/airdropgck/status/1796593626736108007' , 'https://x.com/airdropgck/status/1797265157971759366', 'https://x.com/airdropgck/status/1797401729501221169']
 
 const fillerTexts = [
-  "I Love it",
+  "I Love it just as i love $PAC",
   "Approved by a $PAC validator",
-  "Dead on",
+  "Dead on $PAC",
   "$PAC",
   "@pacmoon_",
-  "gmgm",
-  "gmoon",
-  "this is great",
+  "gmgm $PAC",
+  "gmoon $PAC",
+  "this is great for $PAC",
   "bullish on $PAC",
   "$PAC is the way",
   "$PAC content is great",
@@ -23,7 +23,10 @@ const fillerTexts = [
   "@pacmoon_ should like this",
   "@pacmoon_ validators gang",
   "Approved by a @pacmoon_ validator",
-  "gmgm @pacmoon_"
+  "gmgm @pacmoon_",
+  "did @pacmoon_ see this?",
+  "@pacmoon_ gang",
+  "climb that $PAC leaderboard!"
 ];
 
 const emojis = [
@@ -58,7 +61,7 @@ export class Account {
   }
 
   chooseTweet () {
-    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n Would appreciate some love back! ${links[Math.floor(Math.random() * links.length)]}`
+    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n Lets dream with me! https://x.com/airdropgck/status/1797714274137133273`
   }
 
   async scalpTweetsAndReply () {
@@ -70,8 +73,8 @@ export class Account {
       const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_'))
 
       if (tweetsAboutPac.length) {
-        await likeTweet(this.myId, newTweets[0].id)
-        await replyToTweet(tweet, newTweets[0].id)
+        await likeTweet(this.myId, tweetsAboutPac[0].id)
+        await replyToTweet(tweet, tweetsAboutPac[0].id)
 
         this.state = {
           ...this.state,
@@ -83,7 +86,7 @@ export class Account {
 
   async initiate() {
     // const { id } = await scalpUserByUsername(this.state.username)
-
+    //
     // this.state = {
     //   ...this.state,
     //   id,
