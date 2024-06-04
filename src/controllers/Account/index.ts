@@ -1,7 +1,7 @@
 import { scalpUserByUsername, scalpUserTimelineByUserId } from '../../services/ScalpService/index.js';
-import { replyToTweet, likeTweet } from '../../services/TweetService/index.js';
+import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/index.js';
 
-const links = ['https://x.com/airdropgck/status/1796593626736108007' , 'https://x.com/airdropgck/status/1797265157971759366', 'https://x.com/airdropgck/status/1797401729501221169']
+const links = ['Me moving BOLD as well https://x.com/airdropgck/status/1796593626736108007' , 'Checkout my $PAC art https://x.com/airdropgck/status/1797265157971759366', 'Lets dream with me! https://x.com/airdropgck/status/1797714274137133273']
 
 const fillerTexts = [
   "I Love it just as i love $PAC",
@@ -60,27 +60,36 @@ export class Account {
     return data
   }
 
+  async subscribeToAccount () {
+    await subscribe(this.myId, this.state.username)
+  }
+
   chooseTweet () {
-    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n Lets dream with me! https://x.com/airdropgck/status/1797714274137133273`
+    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n ${links[Math.floor(Math.random() * links.length)]}`
   }
 
   async scalpTweetsAndReply () {
-    const tweets = await this.scalpLastTenTweets()
-    const newTweets = tweets.filter(tweet => !this.state.tweets.includes(tweet.id))
-    const tweet = this.chooseTweet()
+    try {
+      const tweets = await this.scalpLastTenTweets()
+      const newTweets = tweets.filter(tweet => !this.state.tweets.includes(tweet.id))
+      const tweet = this.chooseTweet()
 
-    if (newTweets.length) {
-      const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_'))
+      if (newTweets.length) {
+        const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_'))
 
-      if (tweetsAboutPac.length) {
-        await likeTweet(this.myId, tweetsAboutPac[0].id)
-        await replyToTweet(tweet, tweetsAboutPac[0].id)
+        if (tweetsAboutPac.length) {
+          await likeTweet(this.myId, tweetsAboutPac[0].id)
+          await replyToTweet(tweet, tweetsAboutPac[0].id)
+          await this.subscribeToAccount()
 
-        this.state = {
-          ...this.state,
-          tweets: [...this.state.tweets, ...newTweets.map(t => t.id)]
+          this.state = {
+            ...this.state,
+            tweets: [...this.state.tweets, ...newTweets.map(t => t.id)]
+          }
         }
       }
+    } catch (e) {
+      console.log(e)
     }
   }
 
