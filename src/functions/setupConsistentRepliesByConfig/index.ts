@@ -7,18 +7,25 @@ const state = {
   currentControllers: [],
   counter: 0,
 }
+const array = [
+  '1200421636635267077',
+  '1189094044976025600',
+  '1251370455224561669',
+  '834178921495044096',
+  '1322392383217147907',
 
-const initialTwitterUsers = [
   '1372618667830165508',
   '1311731072489664513',
   '1220695729448083456',
   '1449370052805885959',
   '2583862561',
+
   '1220695729448083456',
   '1382464645160706053',
   '1372618667830165508',
   '1384835654799040513',
   '631770998',
+
   '1712198834628030464',
   '979041547697074176',
   '248626548',
@@ -96,7 +103,15 @@ const initialTwitterUsers = [
   '1423097842034528257',
   '1389606365962792964',
   '1099790079294287872',
-]
+  '951256304596602880',
+  '2154858565',
+  '1382158942160101376',
+  '1767300869735723008',
+  '912442311543595008',
+  '482427113',
+];
+
+const uniqueArray = Array.from(new Set(array));
 
 const change = () => {
   if (!state.leftControllers.length) {
@@ -111,7 +126,8 @@ const change = () => {
   console.log(state.counter)
 }
 
-const accountCronJob = new CronJob('*/30 * * * *', async () => {
+const accountCronJob = new CronJob('*/20 * * * *', async () => {
+  console.log(state.currentControllers)
   for (const controller of state.currentControllers) {
     const { isInitialized } = controller.getState()
 
@@ -129,7 +145,7 @@ const accountCronJob = new CronJob('*/30 * * * *', async () => {
 })
 
 export const initialize = async () => {
-  const initialControllers = initialTwitterUsers.map(username => new Account({ username }));
+  const initialControllers = uniqueArray.map(username => new Account({ username }));
 
   state.controllers = initialControllers
   state.leftControllers = [...initialControllers.slice(5)]

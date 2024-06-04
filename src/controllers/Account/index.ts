@@ -74,6 +74,11 @@ export class Account {
       const newTweets = tweets.filter(tweet => !this.state.tweets.includes(tweet.id))
       const tweet = this.chooseTweet()
 
+      this.state = {
+        ...this.state,
+        tweets: [...this.state.tweets, ...newTweets.map(t => t.id)]
+      }
+
       if (newTweets.length) {
         const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_'))
 
@@ -81,11 +86,6 @@ export class Account {
           await likeTweet(this.myId, tweetsAboutPac[0].id)
           await replyToTweet(tweet, tweetsAboutPac[0].id)
           await this.subscribeToAccount()
-
-          this.state = {
-            ...this.state,
-            tweets: [...this.state.tweets, ...newTweets.map(t => t.id)]
-          }
         }
       }
     } catch (e) {
