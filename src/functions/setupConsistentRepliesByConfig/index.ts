@@ -127,7 +127,6 @@ const change = () => {
 }
 
 const accountCronJob = new CronJob('*/20 * * * *', async () => {
-  console.log(state.currentControllers)
   for (const controller of state.currentControllers) {
     const { isInitialized } = controller.getState()
 
