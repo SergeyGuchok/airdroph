@@ -1,7 +1,7 @@
 import { scalpUserByUsername, scalpUserTimelineByUserId } from '../../services/ScalpService/index.js';
 import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/index.js';
 
-const links = ['Would love some help reaching my goal! https://x.com/airdropgck/status/1798454444784300286']
+const links = ['Would love some help reaching my goal! https://x.com/airdropgck/status/1798454816823292046']
 
 const fillerTexts = [
   "I Love it just as i love $PAC",
