@@ -1,7 +1,7 @@
 import { scalpUserByUsername, scalpUserTimelineByUserId } from '../../services/ScalpService/index.js';
 import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/index.js';
 
-const links = ['Me moving BOLD as well https://x.com/airdropgck/status/1796593626736108007' , 'Checkout my $PAC art https://x.com/airdropgck/status/1797265157971759366', 'Lets dream with me! https://x.com/airdropgck/status/1797714274137133273']
+const links = ['Would love some help reaching my goal! https://x.com/airdropgck/status/1798454444784300286']
 
 const fillerTexts = [
   "I Love it just as i love $PAC",
@@ -55,13 +55,13 @@ export class Account {
   }
 
   async scalpLastTenTweets () {
-    const { data } = await scalpUserTimelineByUserId(this.state.username)
+    const { data } = await scalpUserTimelineByUserId(this.state.id)
 
     return data
   }
 
   async subscribeToAccount () {
-    await subscribe(this.myId, this.state.username)
+    await subscribe(this.myId, this.state.id)
   }
 
   chooseTweet () {
@@ -94,12 +94,12 @@ export class Account {
   }
 
   async initiate() {
-    // const { id } = await scalpUserByUsername(this.state.username)
-    //
-    // this.state = {
-    //   ...this.state,
-    //   id,
-    // }
+    const { id } = await scalpUserByUsername(this.state.username)
+
+    this.state = {
+      ...this.state,
+      id,
+    }
 
     this.isInitialized = true
   }

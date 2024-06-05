@@ -7,6 +7,67 @@ const state = {
   currentControllers: [],
   counter: 0,
 }
+
+const usernames = [
+  'pacnub',
+  'themistergoat',
+  'gojo0x',
+  'theog_general',
+  'rekt2160',
+  'k2_nft',
+  'JoeLeMerou',
+  'KajWedemeijer',
+  'tyler_did_it',
+  'berndawgler',
+  'jaylow999',
+  'redpandaluu',
+  'osf_rekt',
+  'btclover23',
+  'alexandre_nft7',
+  'daviswals1',
+  'iliketabz',
+  'degenty_dev',
+  '7316',
+  'hairdropcat',
+  'sof1azara03',
+  'ikahq_',
+  'sasha_nft',
+  'cryptoleon_eth',
+  'fabxgow',
+  'happyjoenft',
+  'stuebi18',
+  'craysecurity',
+  'lecrepiste',
+  'pkudiwal',
+  'lecrepiste',
+  'rizethereum',
+  'noahsnftark',
+  'niccinft',
+  'percytonie',
+  'juicyhamdogs',
+  'widzeth',
+  'nefretiriii',
+  'anikijungle',
+  'airongrid1',
+  '0xcrabb',
+  'travelfunones',
+  'mauricioostos',
+  'g_waap',
+  'damotniulap',
+  '0xrumrunner',
+  'scooter_420',
+  '0xakylles',
+  'digger_nft',
+  'dialindoe',
+  'dannygreene',
+  'ab2tract',
+  'juicyjama_',
+  'ariesyuangga',
+  'cschua09',
+  'ztvlfuyem71zjts',
+  'apex_cryptoeth',
+]
+
 const array = [
   '1200421636635267077',
   '1189094044976025600',
@@ -144,7 +205,7 @@ const accountCronJob = new CronJob('*/20 * * * *', async () => {
 })
 
 export const initialize = async () => {
-  const initialControllers = uniqueArray.map(username => new Account({ username }));
+  const initialControllers = usernames.map(username => new Account({ username }));
 
   state.controllers = initialControllers
   state.leftControllers = [...initialControllers.slice(5)]
