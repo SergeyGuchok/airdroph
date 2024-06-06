@@ -8,13 +8,17 @@ const state = {
   counter: 0,
 }
 
+const toAdd = []
+
+const toRemove = []
+
 const usernames = [
+  'ChadMongman', 'pacvalidatorv2', 'iamashchild', '0xcrabb', 'g_waap', 'ubutoo', 'happyjoenft', 'pacmoon_', 'dannygreene', '0xmk021',
   'pacnub',
   'themistergoat',
   'gojo0x',
   'theog_general',
   'rekt2160',
-  'k2_nft',
   'JoeLeMerou',
   'KajWedemeijer',
   'tyler_did_it',
@@ -59,7 +63,6 @@ const usernames = [
   '0xakylles',
   'digger_nft',
   'dialindoe',
-  'dannygreene',
   'ab2tract',
   'juicyjama_',
   'ariesyuangga',
