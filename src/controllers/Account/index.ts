@@ -5,10 +5,8 @@ const links = ['Tell me if you like my content ! https://x.com/airdropgck/status
 
 const fillerTexts = [
   "I Love it just as i love $PAC",
-  "Approved by a $PAC validator",
   "Dead on $PAC",
   "$PAC",
-  "@pacmoon_",
   "gmgm $PAC",
   "gmoon $PAC",
   "this is great for $PAC",
@@ -16,21 +14,20 @@ const fillerTexts = [
   "$PAC is the way",
   "$PAC content is great",
   "new era $PAC",
-  "$PAC validators gang",
+  "$PAC new rules are hursh",
   "Validating $PAC content is amazing",
   "Left a like for $PAC",
   "This deserves a $PAC like",
-  "@pacmoon_ should like this",
-  "@pacmoon_ validators gang",
-  "Approved by a @pacmoon_ validator",
-  "gmgm @pacmoon_",
-  "did @pacmoon_ see this?",
-  "@pacmoon_ gang",
+  "I love this $PAC content",
+  "$PAC gang",
+  "gmgm $PAC new rules",
+  "I hope me commenting $PAC over here is allowed due to rule changes",
+  "$PAC rule changes am i even allowed to comment",
   "climb that $PAC leaderboard!"
 ];
 
 const emojis = [
-  "😂", "🤝", "🚀", "😎", "🎉", "♥", "👍", "❤️", "🎉", "👏", "🙌", "🔥", "💯", "😍", "🥳", "🤗", "😻"
+  "😂", "🤝", "🚀", "😎", "🎉", "♥", "👍", "❤️", "🎉", "👏", "🙌", "🔥", "💯", "😍", "🥳", "🤗", "😻", '🤔', '😭', '😁',
 ];
 
 type State = {
@@ -65,7 +62,7 @@ export class Account {
   }
 
   chooseTweet () {
-    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n ${links[Math.floor(Math.random() * links.length)]}`
+    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]}`
   }
 
   async scalpTweetsAndReply () {
