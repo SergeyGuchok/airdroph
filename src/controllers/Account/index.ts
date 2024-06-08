@@ -62,7 +62,7 @@ export class Account {
   }
 
   chooseTweet () {
-    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]}`
+    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n I run a small experiment check to participate 😂`
   }
 
   async scalpTweetsAndReply () {
