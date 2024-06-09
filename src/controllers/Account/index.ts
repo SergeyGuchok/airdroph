@@ -4,26 +4,22 @@ import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/
 const links = ['Tell me if you like my content ! https://x.com/airdropgck/status/1798785031269150913']
 
 const fillerTexts = [
-  "I Love it just as i love $PAC",
-  "Dead on $PAC",
+  "we need more of this",
   "$PAC",
   "gmgm $PAC",
   "gmoon $PAC",
-  "this is great for $PAC",
+  "this is great",
   "bullish on $PAC",
+  "$PAC slashed",
   "$PAC is the way",
-  "$PAC content is great",
-  "new era $PAC",
-  "$PAC new rules are hursh",
-  "Validating $PAC content is amazing",
+  "$PAC is for community",
+  "Validating 🔃",
   "Left a like for $PAC",
   "This deserves a $PAC like",
-  "I love this $PAC content",
+  "I love it!",
   "$PAC gang",
-  "gmgm $PAC new rules",
-  "I hope me commenting $PAC over here is allowed due to rule changes",
-  "$PAC rule changes am i even allowed to comment",
-  "climb that $PAC leaderboard!"
+  "climb that leaderboard!",
+  "sick idea",
 ];
 
 const emojis = [
@@ -62,7 +58,7 @@ export class Account {
   }
 
   chooseTweet () {
-    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n I run a small experiment check to participate 😂`
+    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]}`
   }
 
   async scalpTweetsAndReply () {

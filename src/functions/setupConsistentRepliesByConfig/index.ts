@@ -13,7 +13,7 @@ const toAdd = []
 const toRemove = []
 
 const usernames = ['chadmongman', 'pacvalidatorv2', 'iamashchild', '0xcrabb', 'g_waap', 'ubutoo', 'happyjoenft', 'pacmoon_', 'dannygreene', '0xmk021', 'pacnub', 'themistergoat', 'gojo0x', 'fattyrgarita',
-  'apex_cryptoeth', 'ztvlfuyem71zjts', 'cschua09', 'ariesyuangga', 'juicyjama_', 'ab2tract', 'dialindoe', 'digger_nft', '0xakylles', 'scooter_420', '0xrumrunner', 'damotniulap', 'g_waap', 'mauricioostos', 'travelfunones', '0xcrabb', 'airongrid1', 'anikijungle', 'nefretiriii', 'widzeth', 'juicyhamdogs', 'percytonie', 'niccinft', 'noahsnftark', 'rizethereum', 'lecrepiste', 'pkudiwal', 'lecrepiste', 'craysecurity', 'stuebi18', 'happyjoenft', 'fabxgow', 'cryptoleon_eth', 'sasha_nft', 'ikahq_', 'sof1azara03', 'hairdropcat', '7316', 'degenty_dev', 'iliketabz', 'daviswals1', 'alexandre_nft7', 'btclover23', 'osf_rekt', 'redpandaluu', 'jaylow999', 'berndawgler', 'tyler_did_it', 'KajWedemeijer', 'JoeLeMerou', 'rekt2160', 'theog_general'
+  'apex_cryptoeth', 'ztvlfuyem71zjts', 'cschua09', 'ariesyuangga', 'juicyjama_', 'ab2tract', 'dialindoe', 'digger_nft', 'scooter_420', '0xrumrunner', 'damotniulap', 'g_waap', 'mauricioostos', 'travelfunones', '0xcrabb', 'airongrid1', 'anikijungle', 'nefretiriii', 'widzeth', 'juicyhamdogs', 'percytonie', 'niccinft', 'noahsnftark', 'rizethereum', 'lecrepiste', 'pkudiwal', 'lecrepiste', 'craysecurity', 'stuebi18', 'happyjoenft', 'fabxgow', 'cryptoleon_eth', 'sasha_nft', 'ikahq_', 'sof1azara03', 'hairdropcat', '7316', 'degenty_dev', 'iliketabz', 'daviswals1', 'alexandre_nft7', 'btclover23', 'osf_rekt', 'redpandaluu', 'jaylow999', 'berndawgler', 'tyler_did_it', 'KajWedemeijer', 'JoeLeMerou', 'rekt2160', 'theog_general'
 ]
 
 const array = [
