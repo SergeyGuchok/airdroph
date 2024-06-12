@@ -1,25 +1,17 @@
 import { scalpUserByUsername, scalpUserTimelineByUserId } from '../../services/ScalpService/index.js';
 import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/index.js';
 
-const links = ['Tell me if you like my content ! https://x.com/airdropgck/status/1798785031269150913']
+const links = ['Join now 👇 https://x.com/airdropgck/status/1800687399812415686']
 
 const fillerTexts = [
-  "we need more of this",
-  "$PAC",
-  "gmgm $PAC",
-  "gmoon $PAC",
-  "this is great",
-  "bullish on $PAC",
-  "$PAC slashed",
-  "$PAC is the way",
-  "$PAC is for community",
-  "Validating 🔃",
-  "Left a like for $PAC",
-  "This deserves a $PAC like",
-  "I love it!",
-  "$PAC gang",
-  "climb that leaderboard!",
-  "sick idea",
+  "Join new SocialFi on @Blast_L2!",
+  "New pacmoon-like community platform!",
+  "New SocialFi on @Blast_L2!",
+  "@Blast_L2! new SocialFi",
+  "New pacmoon-like platform on @Blast_L2!",
+  "You dont wanna miss this out",
+  "You should definitely check this out",
+  "Dont fade pacmoon and other social coins!",
 ];
 
 const emojis = [
@@ -73,13 +65,13 @@ export class Account {
       }
 
       if (newTweets.length) {
-        const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_'))
+        // const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_'))
 
-        if (tweetsAboutPac.length) {
-          await likeTweet(this.myId, tweetsAboutPac[0].id)
-          await replyToTweet(tweet, tweetsAboutPac[0].id)
+        // if (tweetsAboutPac.length) {
+          await likeTweet(this.myId, newTweets[0].id)
+          await replyToTweet(tweet, newTweets[0].id)
           await this.subscribeToAccount()
-        }
+        // }
       }
     } catch (e) {
       console.log(e)
