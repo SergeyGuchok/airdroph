@@ -1,7 +1,7 @@
 import { scalpUserByUsername, scalpUserTimelineByUserId } from '../../services/ScalpService/index.js';
 import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/index.js';
 
-const links = ['Join now 👇 https://x.com/airdropgck/status/1800687399812415686']
+const links = ['Join the battle now! 👇 https://x.com/airdropgck/status/1801038852775170080']
 
 const fillerTexts = [
   "Join new SocialFi on @Blast_L2!",
@@ -12,10 +12,13 @@ const fillerTexts = [
   "You dont wanna miss this out",
   "You should definitely check this out",
   "Dont fade pacmoon and other social coins!",
+  "$CHERRY up",
+  "Community coins summer slam?",
+  "$CHERRY VS $PAC",
 ];
 
 const emojis = [
-  "😂", "🤝", "🚀", "😎", "🎉", "♥", "👍", "❤️", "🎉", "👏", "🙌", "🔥", "💯", "😍", "🥳", "🤗", "😻", '🤔', '😭', '😁',
+  "😂", "🤝", "🚀", "😎", "🎉", "♥", "👍", "❤️", "🎉", "👏", "🍒", "👊"
 ];
 
 type State = {
@@ -50,7 +53,7 @@ export class Account {
   }
 
   chooseTweet () {
-    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]}`
+    return `${fillerTexts[Math.floor(Math.random() * fillerTexts.length)]} ${emojis[Math.floor(Math.random() * emojis.length)]} \n\n ${links[0]}`
   }
 
   async scalpTweetsAndReply () {
