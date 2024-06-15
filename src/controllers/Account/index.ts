@@ -1,20 +1,18 @@
 import { scalpUserByUsername, scalpUserTimelineByUserId } from '../../services/ScalpService/index.js';
 import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/index.js';
 
-const links = ['Join the battle now! 👇 https://x.com/airdropgck/status/1801038852775170080']
+const links = ['LETS $CHERRY EACH OTHER 🤝 https://x.com/airdropgck/status/1801769051535884337']
 
 const fillerTexts = [
-  "Join new SocialFi on @Blast_L2!",
-  "New pacmoon-like community platform!",
-  "New SocialFi on @Blast_L2!",
-  "@Blast_L2! new SocialFi",
-  "New pacmoon-like platform on @Blast_L2!",
-  "You dont wanna miss this out",
-  "You should definitely check this out",
-  "Dont fade pacmoon and other social coins!",
-  "$CHERRY up",
-  "Community coins summer slam?",
-  "$CHERRY VS $PAC",
+  "$CHERRY ON TOP",
+  "$CHERRY SEASON 1 ENDING SOON",
+  "$CHERRY TGE SOON",
+  "SEASON 1 $CHERRY SOON",
+  "CLIMB THAT $CHERRY LEADERBOARD!",
+  "$CHERRY GANG",
+  "$CHERRY IS THE WAY",
+  "$CHERRY ? $CHERRY!",
+  "$CHERRY MONTH IT IS",
 ];
 
 const emojis = [
@@ -68,13 +66,13 @@ export class Account {
       }
 
       if (newTweets.length) {
-        // const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_'))
+        const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$CHERRY') || tweet.text.toLowerCase().includes('@CherryOnBlast'))
 
-        // if (tweetsAboutPac.length) {
+        if (tweetsAboutPac.length) {
           await likeTweet(this.myId, newTweets[0].id)
           await replyToTweet(tweet, newTweets[0].id)
           await this.subscribeToAccount()
-        // }
+        }
       }
     } catch (e) {
       console.log(e)
