@@ -66,7 +66,9 @@ export class Account {
       }
 
       if (newTweets.length) {
-        const tweetsAboutPac = newTweets.filter(tweet => tweet.text.toLowerCase().includes('$CHERRY') || tweet.text.toLowerCase().includes('@CherryOnBlast'))
+        const tweetsAboutPac = newTweets.filter(tweet => {
+          return tweet.text.toLowerCase().includes('$cherry') || tweet.text.toLowerCase().includes('@cherryonblast')
+        })
 
         if (tweetsAboutPac.length) {
           await likeTweet(this.myId, newTweets[0].id)

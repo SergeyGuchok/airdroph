@@ -34,7 +34,7 @@ const change = () => {
   console.log(state.counter)
 }
 
-const accountCronJob = new CronJob('*/30 * * * *', async () => {
+const accountCronJob = new CronJob('*/20 * * * *', async () => {
   for (const controller of state.currentControllers) {
     const { isInitialized } = controller.getState()
 
