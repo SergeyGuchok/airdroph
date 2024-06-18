@@ -2,8 +2,8 @@ import { initialize as ReplyInitialize } from './functions/setupConsistentReplie
 import { initialize as TweetInitialize } from './functions/setupConsistentFeedTweetsByConfig/index.js'
 
 try {
-  // ReplyInitialize()
-  TweetInitialize()
+  ReplyInitialize()
+  // TweetInitialize()
 } catch (e) {
   console.error(e)
 }
