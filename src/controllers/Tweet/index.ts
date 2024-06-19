@@ -10,9 +10,11 @@ type State = {
 export class TweetController {
   private state: State;
   myId: string;
+  mediaIds: string[]
 
   constructor() {
     this.myId = '954084679744925702';
+    this.mediaIds = []
     this.state = {
       fails: 0,
       successes: 0,
@@ -92,9 +94,17 @@ export class TweetController {
     }
   }
 
+  async initializeMedia (ids: string[]) {
+    this.mediaIds = ids
+  }
+
   async tweetGeneratedByModalTweet() {
     const tweet = await this.generateTweetFromModel();
-    const { data } = await tweetToFeed(tweet);
+    const payload = this.mediaIds ?
+    { media: { media_ids: [this.mediaIds[Math.floor(Math.random() * this.mediaIds.length)]] } }
+     : undefined
+
+    const { data } = await tweetToFeed(tweet, payload);
     const { id } = data;
 
     this.likeTweets([{ id, edit_history_tweet_ids: [] }]);
