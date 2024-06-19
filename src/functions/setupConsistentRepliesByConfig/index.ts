@@ -45,7 +45,7 @@ const accountCronJob = new CronJob('*/20 * * * *', async () => {
       await controller.scalpTweetsAndReply()
     }
 
-    await new Promise(resolve => setTimeout(resolve, 10000));
+    await new Promise(resolve => setTimeout(resolve, 20000));
   }
 
   change()
