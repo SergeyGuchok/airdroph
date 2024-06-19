@@ -1,9 +1,9 @@
 import { scalpUserByUsername, scalpUserTimelineByUserId } from '../../services/ScalpService/index.js';
 import { replyToTweet, likeTweet, subscribe } from '../../services/TweetService/index.js';
 
-const links = ['LETS $CHERRY EACH OTHER 🤝 https://x.com/airdropgck/status/1802980034900074667']
-
-const fillerTexts = [
+const cherryLinks = ['LETS $CHERRY EACH OTHER 🤝 https://x.com/airdropgck/status/1802980034900074667']
+const pacLinks = ['LETS SUPPORT EACH OTHER 🤝 https://x.com/airdropgck/status/1803493883814224383']
+const cherryFillerTexts = [
   "$CHERRY ON TOP",
   "$CHERRY SEASON 1 ENDING SOON",
   "$CHERRY TGE SOON",
@@ -13,7 +13,23 @@ const fillerTexts = [
   "$CHERRY IS THE WAY",
   "$CHERRY ? $CHERRY!",
   "$CHERRY MONTH IT IS",
-];
+]
+const pacFillerTexts = [
+  "$PAC v3 LFG",
+  "$PAC v3 IS HERE",
+  "$PAC v3 WAIT IS OVER",
+  "$PAC CONTENT CREATORS UNITE",
+  "LETS MAKE $PAC CONTENT GREAT AGAIN",
+  "MAKE ALL $PAC CONTENT CREATORS VISIBLE",
+  "$PAC v3 IS THE WAY",
+  "$PAC v3 IS HAAAARD FOR CREATORS",
+  "$PAC v3 HARSH FOR CREATORS",
+  "$PAC v3 CONTENT IS LIT",
+]
+
+const links = pacLinks
+
+const fillerTexts = pacFillerTexts;
 
 const emojis = [
   "😂", "🤝", "🚀", "😎", "🎉", "♥", "👍", "❤️", "🎉", "👏", "🍒", "👊"
@@ -67,7 +83,7 @@ export class Account {
 
       if (newTweets.length) {
         const tweetsAboutPac = newTweets.filter(tweet => {
-          return tweet.text.toLowerCase().includes('$cherry') || tweet.text.toLowerCase().includes('@cherryonblast')
+          return tweet.text.toLowerCase().includes('$pac') || tweet.text.toLowerCase().includes('@pacmoon_')
         })
 
         if (tweetsAboutPac.length) {

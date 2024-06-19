@@ -52,7 +52,7 @@ const accountCronJob = new CronJob('*/20 * * * *', async () => {
 })
 
 export const initialize = async () => {
-  const initialControllers = cherry.map(username => new Account({ username }));
+  const initialControllers = pacmoon.map(username => new Account({ username }));
 
   state.controllers = initialControllers
   state.leftControllers = [...initialControllers.slice(5)]
